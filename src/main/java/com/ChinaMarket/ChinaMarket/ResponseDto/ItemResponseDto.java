@@ -1,19 +1,20 @@
-package com.ChinaMarket.ChinaMarket.RequestDto;
+package com.ChinaMarket.ChinaMarket.ResponseDto;
 
 import com.ChinaMarket.ChinaMarket.Enum.Category;
+import com.ChinaMarket.ChinaMarket.Enum.ProductStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class ProductRequestDto {
+@NoArgsConstructor
+@Builder
+public class ItemResponseDto {
 
-    private int sellerId;
     private String productName;
     private int price;
-    private int quantity;
     private Category category;
+    private ProductStatus productStatus;
 }

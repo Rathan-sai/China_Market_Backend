@@ -1,6 +1,7 @@
 package com.ChinaMarket.ChinaMarket.Model;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,6 +11,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Builder
 @Table(name = "Item")
 public class Item {
 
@@ -26,4 +28,8 @@ public class Item {
     @OneToOne
     @JoinColumn
     Product product;
+
+    @ManyToOne
+    @JoinColumn
+    Ordered order;
 }

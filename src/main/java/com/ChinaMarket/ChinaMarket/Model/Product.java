@@ -16,7 +16,7 @@ import java.util.List;
 @AllArgsConstructor
 @Entity
 @Builder
-@Table(name = "Product")
+@Table(name = "product")
 public class Product {
 
     @Id
@@ -36,6 +36,6 @@ public class Product {
     @JoinColumn
     Seller seller;
 
-    @OneToOne(mappedBy = "product", cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "product", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     Item item;
 }

@@ -1,6 +1,7 @@
 package com.ChinaMarket.ChinaMarket.Model;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Builder
 @Table(name = "Customer")
 public class Customer {
 
@@ -27,8 +29,11 @@ public class Customer {
     private String mobileNo;
 
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
-    List<Card> cardList = new ArrayList<>();
+    List<Card> cards = new ArrayList<>();
 
-    @OneToOne(mappedBy = "customer", cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     Cart cart;
+
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
+    List<Ordered> orders = new ArrayList<>();
 }
