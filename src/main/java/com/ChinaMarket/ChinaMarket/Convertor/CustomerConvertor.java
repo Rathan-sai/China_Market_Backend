@@ -1,8 +1,8 @@
 package com.ChinaMarket.ChinaMarket.Convertor;
 
 import com.ChinaMarket.ChinaMarket.Model.Customer;
-import com.ChinaMarket.ChinaMarket.RequestDTO.CustomerRequestDto;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.GetCustomerResponseDto;
+import com.ChinaMarket.ChinaMarket.RequestDto.CustomerRequestDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.GetCustomerResponseDto;
 import lombok.experimental.UtilityClass;
 
 @UtilityClass

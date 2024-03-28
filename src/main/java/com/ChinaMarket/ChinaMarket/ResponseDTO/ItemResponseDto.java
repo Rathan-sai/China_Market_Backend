@@ -1,4 +1,4 @@
-package com.ChinaMarket.ChinaMarket.ResponseDTO;
+package com.ChinaMarket.ChinaMarket.ResponseDto;
 
 import com.ChinaMarket.ChinaMarket.Enum.ProductCategory;
 import com.ChinaMarket.ChinaMarket.Enum.ProductStatus;

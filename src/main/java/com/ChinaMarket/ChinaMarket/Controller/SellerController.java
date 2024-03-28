@@ -2,10 +2,10 @@ package com.ChinaMarket.Chinamarket.Controller;
 
 import com.ChinaMarket.ChinaMarket.Exception.SellerNotFoundException;
 import com.ChinaMarket.ChinaMarket.Model.Seller;
-import com.ChinaMarket.ChinaMarket.RequestDTO.SellerRequestDto;
-import com.ChinaMarket.ChinaMarket.RequestDTO.UpdateSellerRequestDto;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.SellerResponseDto;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.UpdatedSellerResponseDto;
+import com.ChinaMarket.ChinaMarket.RequestDto.SellerRequestDto;
+import com.ChinaMarket.ChinaMarket.RequestDto.UpdateSellerRequestDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.SellerResponseDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.UpdatedSellerResponseDto;
 import com.ChinaMarket.ChinaMarket.Service.SellerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

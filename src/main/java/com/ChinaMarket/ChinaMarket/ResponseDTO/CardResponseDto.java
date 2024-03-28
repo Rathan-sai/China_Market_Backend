@@ -1,4 +1,4 @@
-package com.ChinaMarket.ChinaMarket.ResponseDTO;
+package com.ChinaMarket.ChinaMarket.ResponseDto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

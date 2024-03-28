@@ -1,10 +1,10 @@
 package com.ChinaMarket.ChinaMarket.Controller;
 
-import com.ChinaMarket.ChinaMarket.RequestDTO.CardRequestDto;
-import com.ChinaMarket.ChinaMarket.RequestDTO.RemoveCardRequestDto;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.CardResponseDto;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.RemoveAllCardsResponseDto;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.RemoveCardResponseDto;
+import com.ChinaMarket.ChinaMarket.RequestDto.CardRequestDto;
+import com.ChinaMarket.ChinaMarket.RequestDto.RemoveCardRequestDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.CardResponseDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.RemoveAllCardsResponseDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.RemoveCardResponseDto;
 import com.ChinaMarket.ChinaMarket.Service.CardService;
 import com.ChinaMarket.ChinaMarket.Service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,6 +39,7 @@ public class CardController {
     public ResponseEntity removeCard(@RequestBody RemoveCardRequestDto removeCardRequestDto){
         RemoveCardResponseDto removeCardResponseDto;
         try {
+//            removeCardResponseDto = cardService.removeCard(removeCardRequestDto);
             removeCardResponseDto = cardService.removeCard(removeCardRequestDto);
         } catch (Exception e) {
             return new ResponseEntity(e.getMessage(), HttpStatus.BAD_REQUEST);

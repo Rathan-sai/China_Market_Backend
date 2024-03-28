@@ -8,9 +8,9 @@ import com.ChinaMarket.ChinaMarket.Model.Customer;
 import com.ChinaMarket.ChinaMarket.Repository.CardRepository;
 import com.ChinaMarket.ChinaMarket.Repository.CartRepository;
 import com.ChinaMarket.ChinaMarket.Repository.CustomerRepository;
-import com.ChinaMarket.ChinaMarket.RequestDTO.CustomerRequestDto;
-import com.ChinaMarket.ChinaMarket.RequestDTO.CustomerUpdateResponseDto;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.GetCustomerResponseDto;
+import com.ChinaMarket.ChinaMarket.RequestDto.CustomerRequestDto;
+import com.ChinaMarket.ChinaMarket.RequestDto.CustomerUpdateResponseDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.GetCustomerResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

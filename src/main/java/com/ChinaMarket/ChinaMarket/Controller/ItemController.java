@@ -2,7 +2,7 @@ package com.ChinaMarket.ChinaMarket.Controller;
 
 import com.ChinaMarket.ChinaMarket.Exception.ProductNotFoundException;
 import com.ChinaMarket.ChinaMarket.Repository.ItemRepository;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.ItemResponseDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.ItemResponseDto;
 import com.ChinaMarket.ChinaMarket.Service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -2,8 +2,8 @@ package com.ChinaMarket.ChinaMarket.Controller;
 
 import com.ChinaMarket.ChinaMarket.Enum.ProductCategory;
 import com.ChinaMarket.ChinaMarket.Exception.SellerNotFoundException;
-import com.ChinaMarket.ChinaMarket.RequestDTO.ProductRequestDto;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.ProductResponseDto;
+import com.ChinaMarket.ChinaMarket.RequestDto.ProductRequestDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.ProductResponseDto;
 import com.ChinaMarket.ChinaMarket.Service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

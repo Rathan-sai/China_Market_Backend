@@ -4,7 +4,7 @@ import com.ChinaMarket.ChinaMarket.Exception.ProductNotFoundException;
 import com.ChinaMarket.ChinaMarket.Model.Item;
 import com.ChinaMarket.ChinaMarket.Model.Product;
 import com.ChinaMarket.ChinaMarket.Repository.ProductRepository;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.ItemResponseDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.ItemResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

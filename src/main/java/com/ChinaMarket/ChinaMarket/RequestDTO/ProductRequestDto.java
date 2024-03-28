@@ -1,4 +1,4 @@
-package com.ChinaMarket.ChinaMarket.RequestDTO;
+package com.ChinaMarket.ChinaMarket.RequestDto;
 
 import com.ChinaMarket.ChinaMarket.Enum.ProductCategory;
 import lombok.AllArgsConstructor;

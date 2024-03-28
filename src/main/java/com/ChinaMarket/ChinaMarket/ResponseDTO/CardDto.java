@@ -1,4 +1,4 @@
-package com.ChinaMarket.ChinaMarket.ResponseDTO;
+package com.ChinaMarket.ChinaMarket.ResponseDto;
 
 import com.ChinaMarket.ChinaMarket.Enum.CardType;
 import lombok.AllArgsConstructor;

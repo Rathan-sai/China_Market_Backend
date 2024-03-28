@@ -2,8 +2,8 @@ package com.ChinaMarket.ChinaMarket.Convertor;
 
 import com.ChinaMarket.ChinaMarket.Enum.ProductStatus;
 import com.ChinaMarket.ChinaMarket.Model.Product;
-import com.ChinaMarket.ChinaMarket.RequestDTO.ProductRequestDto;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.ProductResponseDto;
+import com.ChinaMarket.ChinaMarket.RequestDto.ProductRequestDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.ProductResponseDto;
 import lombok.experimental.UtilityClass;
 
 @UtilityClass

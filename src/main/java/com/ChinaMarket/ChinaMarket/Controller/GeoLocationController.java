@@ -1,6 +1,6 @@
 package com.ChinaMarket.ChinaMarket.Controller;
 
-import com.ChinaMarket.ChinaMarket.ResponseDTO.GeolocationResponseDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.GeolocationResponseDto;
 import com.ChinaMarket.ChinaMarket.Service.GeoLocationService;
 //import com.ChinaMarket.ChinaMarket.Model.Geolocation;
 import com.maxmind.geoip2.exception.GeoIp2Exception;

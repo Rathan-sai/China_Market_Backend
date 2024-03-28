@@ -1,8 +1,8 @@
 package com.ChinaMarket.ChinaMarket.Convertor;
 
 import com.ChinaMarket.ChinaMarket.Model.Seller;
-import com.ChinaMarket.ChinaMarket.RequestDTO.SellerRequestDto;
-import com.ChinaMarket.ChinaMarket.ResponseDTO.SellerResponseDto;
+import com.ChinaMarket.ChinaMarket.RequestDto.SellerRequestDto;
+import com.ChinaMarket.ChinaMarket.ResponseDto.SellerResponseDto;
 import lombok.experimental.UtilityClass;
 
 import java.util.ArrayList;
